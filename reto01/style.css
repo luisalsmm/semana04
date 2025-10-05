@@ -1,0 +1,95 @@
+.principal {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;        /* ocupa toda la altura de la ventana */
+  display: grid;            /* convierte el contenedor en un grid */
+  place-items: center;      /* centra horizontal y verticalmente */
+}
+
+
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 375px;
+    overflow: hidden;
+}
+
+.card_media {
+  margin: 0;
+}
+
+.card_media img {
+  width: 100%;             /* se estira al ancho de la tarjeta */
+  height: auto;            /* mantiene proporción original */
+  display: block;          /* quita el “huequito” debajo de las imágenes inline */
+}
+
+.card_body {
+    padding: 0 20px 20px 20px;
+    
+}
+
+.card_body_title {
+    font-size: 17px;
+    margin-bottom: 4px;
+    font-family: Montserrat;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+}
+
+.card_body_name {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-family: Fraunces;
+    font-weight: 700px;
+}
+
+.card_body_description {
+    font-size: 17px;
+        font-family: Montserrat;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.card_price {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.card_price p {
+  margin: 20px 0; 
+}
+
+.card_price_top {
+    font-size: 35px;
+    font-family: Fraunces;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+}
+
+.card_price_down {
+    color: hsl(228, 12%, 48%);
+    font-family: Montserrat;
+    text-decoration: line-through;
+    
+}
+
+.card_btn {
+    background: hsl(158, 36%, 37%);
+    width: 100%;
+    border: 0;
+    border-radius: 6px;
+    padding: 17px;
+    color: #fff;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
